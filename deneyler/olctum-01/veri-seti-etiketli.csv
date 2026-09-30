@@ -1,0 +1,101 @@
+id,metin,onerilen_etiket,sefa_etiketi,zor,zorluk_turu,not
+E001,"Ürün güzel ama ihtiyacım kalmadı, iade süreci nasıl işliyor?",IADE_DEGISIM,,hayir,,
+E002,sipariş ne alemde,SIPARIS_DURUMU,,evet,cok_kisa,"Tek satır, sipariş numarası yok, soru işareti yok."
+E003,Elektrikli süpürgenin filtresi nasıl temizleniyor? Emiş gücü düştü.,TEKNIK_SORUN,,hayir,,
+E004,"Laptopun şarj adaptörü çok ısınıyor, kullanmak güvenli mi?",TEKNIK_SORUN,,hayir,,
+E005,"Kargo 'teslim edildi' diyor ama bana hiçbir paket gelmedi. Kapıcıya ve komşulara da sordum, kimse almamış.",SIPARIS_DURUMU,,hayir,,
+E006,"Faturam e-posta ile gelmedi, sipariş no 48001.",FATURA_ODEME,,hayir,,
+E007,Tebrikler! Hesabınızı doğrulamak ve ödülünüzü almak için hemen linke tıklayın: http://ornek-dogrulama.xyz,SIKAYET_DIGER,,evet,spam,Oltalama/spam. Modeller bunu FATURA veya TEKNIK'e koyabilir.
+E008,"Ürünü iade kargosuna vereli 10 gün oldu, para iadesi hâlâ hesabıma yatmadı.",IADE_DEGISIM,,evet,sinir_iade_odeme,Para konusu FATURA'ya çekebilir. Kural: iade sürecine bağlı para iadesi IADE_DEGISIM; mükerrer/yanlış çekim FATURA_ODEME.
+E009,"Sipariş numaram ekranda çıktı ama onay maili gelmedi, kartımdan da para çekilmiş görünüyor. Siparişim sisteme düştü mü?",SIPARIS_DURUMU,,evet,yaniltici_anahtar_kelime,'Kartımdan para çekilmiş' ifadesi FATURA'ya çekebilir; asıl soru siparişin alınıp alınmadığı. Karşılaştır: ödeme alınıp sipariş OLUŞMADIYSA FATURA_ODEME.
+E010,"Akıllı saat telefonla eşleşmiyor, Bluetooth açık.",TEKNIK_SORUN,,hayir,,
+E011,Geçen hafta kargo sorunumda yardımcı olan müşteri temsilcinize çok teşekkür ederim.,SIKAYET_DIGER,,evet,yaniltici_anahtar_kelime,'Kargo sorunu' SIPARIS'e çekebilir; mesaj teşekkür.
+E012,"Müşteri hizmetlerine 3 gündür ulaşamıyorum, telefon hep meşgul.",SIKAYET_DIGER,,hayir,,
+E013,"Blender'ı kutusundan çıkardım ama hiç kullanmadım, iade edebilir miyim?",IADE_DEGISIM,,hayir,,
+E014,"Aldığım ayakkabı küçük geldi, bir numara büyüğüyle değiştirmek istiyorum.",IADE_DEGISIM,,hayir,,
+E015,"Canlı destek botu hiçbir soruma cevap veremiyor, gerçek bir insanla görüşmek istiyorum.",SIKAYET_DIGER,,hayir,,Bot 'teknik' gibi görünebilir; konu hizmet şikâyeti.
+E016,Teslimat süresi neden 7-10 gün? Hızlı gönderim seçeneğiniz var mı?,SIPARIS_DURUMU,,hayir,,
+E017,"3D Secure ekranında hata alıyorum, ödemeyi tamamlayamıyorum.",FATURA_ODEME,,hayir,,Sınır kuralı: ödeme adımındaki sorunlar FATURA_ODEME; ödeme dışındaki site/uygulama hataları TEKNIK_SORUN.
+E018,?,SIKAYET_DIGER,,evet,anlamsiz,İçeriksiz mesaj. Kural: sınıflandırılamayan her şey SIKAYET_DIGER.
+E019,Ürün açıklamasında 'yerli üretim' yazıyor ama kutunun üzerinde başka bir ülke yazıyor.,SIKAYET_DIGER,,hayir,,
+E020,"Sepette 1.249 TL yazıyordu, karttan 1.349 TL çekildi. Aradaki 100 TL ne?",FATURA_ODEME,,hayir,,
+E021,"Siparişimi cumartesiye yetiştirebilir misiniz? Doğum günü hediyesi, en geç ne zaman elimde olur?",SIPARIS_DURUMU,,hayir,,
+E022,"Kupon kodu ödeme sayfasında çalışmadı, indirim uygulanmadan ücret çekildi. Farkı geri alabilir miyim?",FATURA_ODEME,,hayir,,Kupon hatası TEKNIK'e çekebilir; talep ücret farkı.
+E023,Ürün yorumum neden yayınlanmadı?,SIKAYET_DIGER,,hayir,,
+E024,Siparişim henüz kargoya verilmediyse teslimat adresini değiştirmem gerekiyor. Mümkün mü?,SIPARIS_DURUMU,,hayir,,
+E025,"Renk fotoğraftakinden çok farklı, iade etmek istiyorum.",IADE_DEGISIM,,hayir,,
+E026,Para iademi kartıma değil hediye çeki olarak alabilir miyim?,IADE_DEGISIM,,hayir,,
+E027,Siparişi iptal ettim ama bloke edilen tutar kartımda hâlâ duruyor.,FATURA_ODEME,,hayir,,İptal kelimesi SIPARIS'e çekebilir; sorun karttaki bloke tutar.
+E028,"Kampanya dönemlerinde fiyatları önce artırıp sonra indirim yapıyorsunuz, bunu fark ettim.",SIKAYET_DIGER,,hayir,,
+E029,"Puanlarımı ödemede kullanamıyorum, bakiye görünüyor ama tutardan düşmüyor.",FATURA_ODEME,,hayir,,
+E030,"Ödeme yaptım ama sipariş oluşmadı, para hesabımdan düştü.",FATURA_ODEME,,evet,sinir_siparis_odeme,"Sipariş kelimesi SIPARIS'e çekebilir; sipariş hiç oluşmamış, sorun ödeme."
+E031,Kahve makinesinin ekranında E03 hatası çıkıyor.,TEKNIK_SORUN,,hayir,,
+E032,"Ürünlerinizi kendi mağazamızda satmak istiyoruz, iş birliği için kiminle görüşebiliriz?",SIKAYET_DIGER,,hayir,,
+E033,"Sipariş verirken adres kaydetme ekranı hata veriyor, siparişi tamamlayamıyorum.",TEKNIK_SORUN,,hayir,,Sipariş kelimesi SIPARIS'e çekebilir; sorun site hatası (ödeme adımı değil).
+E034,"Bugün kargoya verilecek denmişti, hâlâ hiçbir hareket yok.",SIPARIS_DURUMU,,hayir,,
+E035,"Setten tek bir parçayı iade etmek istiyorum, kısmi iade mümkün mü?",IADE_DEGISIM,,hayir,,
+E036,Sadakat programınıza nasıl üye olunuyor?,SIKAYET_DIGER,,hayir,,
+E037,Ankara'da fiziksel mağazanız var mı?,SIKAYET_DIGER,,hayir,,
+E038,Instagram'daki kampanya sitede neden geçerli değil? Bence yanıltıcı reklam.,SIKAYET_DIGER,,hayir,,"Fiyat konusu FATURA'ya çekebilir; ödeme sorunu değil, kampanya şikâyeti."
+E039,"Fatura şirket adına mı düzenleniyor, şahıs adına mı? Sipariş verirken seçemedim.",FATURA_ODEME,,hayir,,
+E040,"Merhabalar, iki ürün sipariş ettim ama tek paket geldi. Diğeri ayrı mı gelecek?",SIPARIS_DURUMU,,hayir,,
+E041,İade süresi kaç gün? Ürünü 16 gün önce teslim aldım.,IADE_DEGISIM,,hayir,,
+E042,"Yazıcı sürücüsü macOS'ta yüklenmiyor, uyumlu bir sürüm var mı?",TEKNIK_SORUN,,hayir,,
+E043,"Aynı ürünü yanlışlıkla iki kez sipariş etmişim, ikisi de geldi. Birini geri göndermek istiyorum.",IADE_DEGISIM,,hayir,,
+E044,Değişim için gönderdiğim ürün size ulaştı mı? Yenisi ne zaman gelir?,IADE_DEGISIM,,hayir,,"Değişim sürecinin takibi, SIPARIS değil IADE_DEGISIM."
+E045,"Kargom 5 gündür aynı aktarma merkezinde bekliyor, bir bilginiz var mı?",SIPARIS_DURUMU,,hayir,,
+E046,iade etcem nasıl yapıyoz,IADE_DEGISIM,,evet,yazim_hatasi,"Ağız/yazım hatası, çok kısa."
+E047,"Hediye çeki kodumu girdim, bakiye 0 görünüyor ama hiç kullanmadım.",FATURA_ODEME,,hayir,,
+E048,"Harika bir ürün, sadece 2 günde bozuldu. Tebrikler 👏",TEKNIK_SORUN,,evet,ironi,"Açık talep yok, ironik şikâyet. Kural: ürün arızası bildiriliyorsa TEKNIK_SORUN. Alternatif etiket SIKAYET_DIGER da savunulabilir; etiketleme kararını not et."
+E049,İade kodu nasıl alınıyor? Uygulamada iade butonunu bulamadım.,IADE_DEGISIM,,hayir,,Uygulama geçse de amaç iade.
+E050,Aynı sorunu dördüncü kez yazıyorum ve kimse cevap vermiyor. Artık tüketici hakem heyetine başvuracağım.,SIKAYET_DIGER,,hayir,,Asıl sorun belirtilmemiş; yalnızca hizmet şikâyeti.
+E051,KVKK kapsamında kişisel verilerimin silinmesini talep ediyorum.,SIKAYET_DIGER,,hayir,,
+E052,"Merhaba, sipariş numaram 47790. Kısmi gönderim yapılmış, kulaklık eksik. Durumu nedir?",SIPARIS_DURUMU,,hayir,,
+E053,"Kargocu paketi kapıya bırakıp zili bile çalmadan gitti, çok özensiz.",SIKAYET_DIGER,,hayir,,Paket teslim edilmiş; konu hizmet şikâyeti.
+E054,"Firmamız için toplu alım yapacağız, proforma fatura gönderebilir misiniz?",FATURA_ODEME,,hayir,,Toplu alım DİĞER'e çekebilir; talep proforma fatura.
+E055,Garanti kapsamında servis nasıl çağırıyorum? Buzdolabı soğutmuyor.,TEKNIK_SORUN,,hayir,,
+E056,"Kartımdan aynı sipariş için iki kez çekim yapılmış, birini iade eder misiniz?",FATURA_ODEME,,evet,yaniltici_anahtar_kelime,'İade' kelimesi IADE_DEGISIM'e çekebilir; konu mükerrer çekim.
+E057,"Siparişim sorunsuz geldi, paketleme çok özenliydi. Teşekkürler!",SIKAYET_DIGER,,hayir,,
+E058,"Televizyonun kumandası bazı tuşlara tepki vermiyor, pilleri değiştirdim.",TEKNIK_SORUN,,hayir,,
+E059,"Yanlış ürün gönderilmiş, ben siyah istemiştim beyaz gelmiş. Değişim yapalım lütfen.",IADE_DEGISIM,,hayir,,
+E060,"Aldığım robot süpürge şarj istasyonunu bulamıyor, sürekli etrafında dönüyor. Bir ayar mı yapmam lazım?",TEKNIK_SORUN,,hayir,,
+E061,"Kurye aradı, adresi bulamadığını söyledi. Tekrar ne zaman gelir?",SIPARIS_DURUMU,,hayir,,
+E062,"İade ettiğim ürün için 'kabul edilmedi' maili geldi, sebebini öğrenebilir miyim?",IADE_DEGISIM,,hayir,,
+E063,Beden tablosuna göre aldım yine olmadı. Değişim kargosu ücretli mi?,IADE_DEGISIM,,hayir,,
+E064,"Siparişimi iptal etmek istiyorum, henüz kargolanmadı.",SIPARIS_DURUMU,,hayir,,Sınır kuralı: kargolanmamış siparişin iptali SIPARIS_DURUMU; kargolanmış/teslim edilmiş ürünün geri gönderimi IADE_DEGISIM.
+E065,"Ödeme sayfasında taksit seçeneği görünmüyor, 6 taksit yapabiliyor musunuz?",FATURA_ODEME,,hayir,,
+E066,Kargo firması yarın teslim edecek diyor ama ben yarın evde değilim. Şubeden alabilir miyim?,SIPARIS_DURUMU,,hayir,,
+E067,"Eski adresime hâlâ basılı katalog gönderiyorsunuz, lütfen durdurun.",SIKAYET_DIGER,,hayir,,
+E068,Kapıda ödeme seçeneğiniz var mı?,FATURA_ODEME,,hayir,,
+E069,Havale ile ödeme yaptım ama açıklamaya sipariş numarasını yazmayı unuttum. Nasıl eşleşecek?,FATURA_ODEME,,hayir,,
+E070,"Faturadaki adres yanlış, düzeltilmiş fatura kesebilir misiniz?",FATURA_ODEME,,hayir,,
+E071,Mağazadan iade yapabilir miyim yoksa kargoyla mı göndermem gerekiyor?,IADE_DEGISIM,,hayir,,
+E072,"Kredi kartı ekstremde 'ORNEKMARKET' diye tanımadığım bir harcama var, bu sizden mi?",FATURA_ODEME,,hayir,,
+E073,İndirimde aldığım ürünler iade edilebiliyor mu?,IADE_DEGISIM,,hayir,,
+E074,"Çalışanınız telefonda sesini yükseltti, bu kabul edilemez.",SIKAYET_DIGER,,hayir,,
+E075,"E-bülten listesinden çıkmak istiyorum, çok fazla mail geliyor.",SIKAYET_DIGER,,hayir,,
+E076,"Sipariş no 48213. Kargo takip numarası sistemde bulunamıyor, paketim nerede acaba?",SIPARIS_DURUMU,,hayir,,
+E077,fatura,FATURA_ODEME,,evet,cok_kisa,Tek kelime.
+E078,Paketim hasarlı mı geldi diye soracaktım ama daha gelmedi bile :) 10 gündür bekliyorum.,SIPARIS_DURUMU,,evet,ironi,'Hasarlı' kelimesi İADE/ŞİKÂYET'e çekebilir; asıl konu gelmeyen sipariş.
+E079,"Kargo poşetini attım, iade için orijinal ambalaj şart mı?",IADE_DEGISIM,,hayir,,
+E080,Hediye paketi seçeneğini işaretlemiştim ama sipariş özetinde görünmüyor. Hediye paketli mi gelecek?,SIPARIS_DURUMU,,hayir,,
+E081,Ön siparişle aldığım kahve makinesi için verilen tahmini tarih geçti. Ne zaman stoğa girecek?,SIPARIS_DURUMU,,hayir,,
+E082,"Ürünü iade etmeyi düşünmüyorum, sadece çalıştırmama yardım edin: saat ayarı sürekli sıfırlanıyor.",TEKNIK_SORUN,,evet,yaniltici_anahtar_kelime,'İade' kelimesi geçiyor ama müşteri açıkça iade istemiyor.
+E083,"Merhaba, 3 gün önce verdiğim sipariş hâlâ 'hazırlanıyor' görünüyor. Ne zaman kargoya verilir?",SIPARIS_DURUMU,,hayir,,
+E084,"Hediye olarak aldım, faturasız iade yapılabiliyor mu?",IADE_DEGISIM,,evet,yaniltici_anahtar_kelime,'Fatura' kelimesi FATURA_ODEME'ye çekebilir; konu iade.
+E085,Taksit farkı neden bu kadar yüksek? Peşin fiyatına 3 taksit yok mu?,FATURA_ODEME,,hayir,,
+E086,"Hesabımda eski siparişlerim görünmüyor, sayfa boş geliyor.",TEKNIK_SORUN,,hayir,,Sipariş kelimesi SIPARIS'e çekebilir; sorun hesap sayfası hatası.
+E087,"Uygulamaya giriş yapamıyorum, şifremi sıfırlasam da 'hatalı' diyor.",TEKNIK_SORUN,,hayir,,
+E088,"Uygulama bildirimleri gelmiyor, kampanyaları kaçırıyorum.",TEKNIK_SORUN,,hayir,,
+E089,wifiye baglanmiyo klima,TEKNIK_SORUN,,evet,yazim_hatasi,"Türkçe karakter yok, çok kısa."
+E090,e-faturamı PDF olarak nereden indirebilirim?,FATURA_ODEME,,hayir,,
+E091,Blenderın bıçağı dönmüyor ama motor sesi geliyor.,TEKNIK_SORUN,,hayir,,
+E092,Web sitenizde karanlık mod açılınca yazılar okunmuyor.,TEKNIK_SORUN,,hayir,,
+E093,Yazılım güncellemesinden sonra hoparlörden ses gelmiyor.,TEKNIK_SORUN,,hayir,,
+E094,"Kulaklığın bir tarafından ses gelmiyor, yenisiyle değiştirilmesini istiyorum.",IADE_DEGISIM,,evet,sinir_teknik_iade,Arıza var ama talep değişim. Kural: müşteri açıkça iade/değişim istiyorsa IADE_DEGISIM; tamir/yardım istiyorsa TEKNIK_SORUN.
+E095,"Hi, siparişim #50122 still not shipped, any update? Teşekkürler",SIPARIS_DURUMU,,evet,dil_karisik,Türkçe-İngilizce karışık.
+E096,Mağazanızda iş başvurusu nasıl yapılıyor?,SIKAYET_DIGER,,hayir,,
+E097,Sitede 'sepete ekle' butonuna basınca sayfa donuyor.,TEKNIK_SORUN,,hayir,,
+E098,"Kurulum kılavuzu Türkçe değil, Türkçe versiyonunu paylaşabilir misiniz?",TEKNIK_SORUN,,hayir,,
+E099,"Kurumsal fatura istiyorum, vergi numaramı nereye yazmalıyım?",FATURA_ODEME,,hayir,,
+E100,"Kargo takip linki başka birinin adresini gösteriyor, yanlış mı eşleşmiş?",SIPARIS_DURUMU,,hayir,,
