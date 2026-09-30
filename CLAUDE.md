@@ -38,6 +38,7 @@ Otomatik rutin: "KorgaAI haftalık içerik paketi" (`trig_01AVGWAF4zmLckDEVU158H
 ## Değişmez kurallar
 - **Rakam, sonuç, müşteri yorumu veya kişisel deneyim uydurma.** Bunlar `[YER TUTUCU]` olarak kalır, Sefa doldurur. Görüş cümleleri ✏️ ile işaretlenir.
 - Sentetik veri kullanılan deneylerde bu durum içerikte açıkça söylenir.
+- **Deney verileri gizli.** Veri setleri, istemler ve ham sonuç dosyaları paylaşılmaz, herkese açık depo açılmaz. İçerikte yalnızca yöntem özeti ve sonuç tablosu yer alır. Veri talebi gelirse DM'e ve iş konuşmasına yönlendirilir.
 - **Platform kuralları** (kaynak: araştırma raporu):
   - Instagram'da en fazla 5 hashtag.
   - X'te link ilk yanıtta.
