@@ -18,11 +18,13 @@ Bu depo, Sefa Balaban'ın (KorgaAI) X, Instagram ve YouTube içerik operasyonudu
 - `icerik/2026-hNN.md`: haftalık içerik paketleri.
 - `icerik/uzun-video/UN.md`: uzun video senaryoları (kayıttan bir hafta önce hazır).
 - `olcum/metrik-kaydi.md`: haftalık metrikler, hipotezler, iş hunisi.
+- `notlar/`: Sefa'nın Obsidian ikinci beyni (fikirler, deneyimler, müşteri gözlemleri, deney notları). Kurallar `notlar/README.md` dosyasında.
 
 ## Haftalık paket üretimi (Pazar)
 Otomatik rutin: "KorgaAI haftalık içerik paketi" (`trig_01AVGWAF4zmLckDEVU158Hvm`), her Pazar 19:50 İstanbul saatinde bu sohbette çalışır. Sefa istatistik ekran görüntülerini Pazar 19:50'den önce bu sohbete gönderir.
 
 1. `olcum/metrik-kaydi.md` dosyasını ve Sefa'nın gönderdiği istatistikleri oku. Tabloyu güncelle, 3 bulgu çıkar.
+   - `notlar/` klasöründeki `durum: yeni` notları oku. Konu seçiminde, ✏️ cümlelerde ve perde arkası içeriklerinde bunları kullan. Kullandığın notun durumunu `kullanıldı` yap.
 2. `takvim/ana-takvim.md` dosyasından gelecek haftanın konularını al. Bulgulara göre gerekirse ayarla ve takvimi güncelle.
 3. `icerik/2026-h01.md` formatında `icerik/2026-hNN.md` dosyasını üret:
    - haftanın akış tablosu

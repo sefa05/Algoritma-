@@ -1,6 +1,29 @@
 # H0 · Kurulum Haftası — 1–4 Ekim 2026
 
-Bu hafta paylaşım yok. Bu hafta vitrin hazırlanıyor. Toplam süre yaklaşık 3–4 saat.
+Bu hafta paylaşım yok. Bu hafta vitrin hazırlanıyor. Toplam süre yaklaşık 5–6 saat, günde yaklaşık 1 saat.
+
+---
+
+## 📅 Gün gün plan
+
+**Kritik yol:**
+- "Ben kimim" videosu **Pazartesi 20:30**'a hazır olmalı.
+- Carousel **Çarşamba 12:30**'a hazır olmalı.
+- Ölçtüm #1 sonuçları **Çarşamba akşamı** elde olmalı, Perşembe montaj yapılacak.
+
+| Gün | Süre | Görevler | Çıktı |
+|---|---|---|---|
+| **Çar 30 Eyl** (bugün) | 45 dk | • Instagram: isim alanı, açıklama, link<br>• X: isim, açıklama, doğum tarihini gizle, eski sabitlemeyi kaldır<br>• Obsidian bağlantısı (sen), bkz. `notlar/README.md` | 2 profil metni güncel |
+| **Per 1 Eki** | 60 dk | • YouTube: kanal adı, açıklama, afiş yazısı, 3 oynatma listesi, iş e-postası<br>• Yeni profil fotoğrafı çek (gözlüksüz, göz teması). Üç platforma yükle.<br>• 🔁 Etkileşim rutini başlıyor: X'te 10 dk | 3 profil tutarlı |
+| **Cum 2 Eki** | 60 dk | • Ölçtüm #1: **3 modeli seç**, 100 e-postalık veri setini hazırla (10–15 zor örnek), etiketle<br>• Canva/Figma kapak şablonu: Reels 9:16, carousel 4:5 | Veri seti + etiketler, şablon |
+| **Cmt 3 Eki** | 90 dk | • **Çekim:** "Ben kimim" (3–4 deneme) + 5 dk ekran görüntüsü (kod, tablo, ajan çalışırken)<br>• Carousel'in 8 slaytını şablona dök<br>• X `Hedef` listesine ilk 30 hesabı ekle | Ham video, carousel taslağı |
+| **Paz 4 Eki** | 60–90 dk | • "Ben kimim" montajı. Zamanla: IG + YT Pzt 20:30, X dizisi Pzt 09:00.<br>• Carousel'i Çar 12:30'a zamanla<br>• Instagram öne çıkan hikâyeleri: `Ölçtüm` · `Nasıl çalışırım` · `İletişim`<br>• **19:50'den önce** başlangıç istatistiklerinin ekran görüntülerini bu sohbete gönder | Pazartesi yayınları zamanlanmış |
+| **Paz 4 Eki 19:50** | — | 🤖 Rutin çalışır: metrik kaydı + **U1 senaryosu** (10–11 Ekim kaydı için) | `icerik/uzun-video/U1.md` |
+| **Pzt 5 – Sal 6 Eki** | 60 dk | • Ölçtüm #1 deneyini çalıştır, ekran kaydını al<br>• Sonuç tablosunu bu sohbete gönder → yer tutucuları doldururum | Ölçtüm #1 sonuçları |
+
+**Zaman yetmezse:**
+- Önceliği X ve Instagram profil metinlerine, "Ben kimim" çekimine ve Ölçtüm #1 veri setine ver.
+- YouTube afişi ve öne çıkan hikâye kapakları H1 içine kayabilir.
 
 ---
 
