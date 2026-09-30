@@ -108,7 +108,7 @@ Kesit planı: hangi dakikadan hangi Shorts çıkacak
 ### 5.4 Deney protokolü (her Ölçtüm için)
 ```
 Görev · Veri seti (kaynak, adet, gerçek mi sentetik mi, anonimleştirme) · Doğru cevaplar (kim etiketledi)
-Karşılaştırılanlar (model veya yaklaşım) · Sabitler (aynı istem, sıcaklık 0)
+Karşılaştırılanlar (model veya yaklaşım) · Sabitler (aynı istem; sıcaklık 0 yalnızca destekleyen modellerde)
 Metrikler: doğruluk %, 100 iş başına maliyet (TL), ortalama süre (sn), hata türleri
 Kayıt: ekran kaydı, sonuç tablosu (CSV), 3 ilginç hata örneği
 Şeffaflık notu (içerikte söylenecek): veri seti sentetik mi, kaç örnek, sınırlamalar
