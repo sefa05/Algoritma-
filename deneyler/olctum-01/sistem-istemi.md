@@ -1,6 +1,6 @@
 # Sistem istemi — Ölçtüm #1
 
-Üç modele **birebir aynı** metin verilir. Sıcaklık 0. Kullanıcı mesajı yalnızca e-posta metnidir.
+Üç modele **birebir aynı** metin verilir. Kullanıcı mesajı yalnızca e-posta metnidir. Sıcaklık yalnızca destekleyen modellerde 0'dır; model bazında ayarlar `modeller.json` dosyasında.
 
 ```
 Sen bir e-ticaret şirketinin müşteri hizmetleri sınıflandırıcısısın.

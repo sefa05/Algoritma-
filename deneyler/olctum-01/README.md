@@ -54,12 +54,44 @@
 3. **Veri setini değiştirmek istersen** e-posta ekleyip çıkarabilirsin. Sonra bana haber ver, dağılım tablosunu güncellerim.
 
 ## Deneyi çalıştırma (Pzt–Sal)
-1. `veri-seti-modele-giden.csv` dosyasındaki her e-postayı `sistem-istemi.md` ile üç modele gönder.
-   - **Ayarlar:** Sıcaklık 0. Tek e-posta = tek istek.
-2. **Kaydet:**
-   - Her cevabı `sonuc-sablonu.csv` dosyasına yaz.
-   - Yanıt süresini ölç.
-   - Toplam giriş ve çıkış token'ını not al: maliyet = token × fiyat, TL'ye çevir, kur ve tarihi de not et.
-3. **Geçersiz cevaplar:** Model etiket dışında bir şey döndürürse **yanlış** say. Bunu ayrıca "format hatası" olarak da say, içerikte ilginç bir bulgu olabilir.
-4. **Ekran kaydı:** Deney çalışırken ekran kaydı al. Reels'in 10–30. saniyeleri buradan çıkacak.
-5. **Teslim:** Doldurulmuş `sonuc-sablonu.csv` dosyasını ve token ve süre notlarını bu sohbete gönder ya da depoya ekle. Doğruluğu, kategori bazında hata tablosunu, en çok karıştırılan çiftleri ve zor örneklerdeki başarıyı ben hesaplarım, ardından H1 paketindeki yer tutucuları doldururum.
+
+### 1. Kurulum (bir kez)
+```bash
+pip install anthropic openai
+export ANTHROPIC_API_KEY=...      # ya da: ant auth login
+export OPENAI_API_KEY=...         # yalnızca Model C OpenAI uyumlu bir sağlayıcıysa
+```
+
+### 2. `modeller.json` dosyasını doldur
+| Model | Varsayılan | Değiştirebilirsin |
+|---|---|---|
+| **A** (büyük) | Claude Opus 5.5, effort `low` | Claude Sonnet 5.5 (`claude-sonnet-5-5`, $2 / $10) |
+| **B** (küçük / ucuz) | Claude Haiku 4.5, sıcaklık 0 | — |
+| **C** (farklı sağlayıcı) | **Boş.** `model`, `etiket`, fiyatlar ve gerekiyorsa `base_url` alanlarını doldur. OpenAI, OpenRouter ve yerel vLLM/Ollama ile çalışır. | — |
+
+- `usd_try.kur` ve `tarih` alanlarına deney günkü kuru yaz. Rapor maliyeti TL olarak verir.
+- **Model C'nin fiyatı:** Sağlayıcının güncel fiyat sayfasından al. Claude fiyatları 25 Eylül 2026 liste fiyatlarıdır.
+
+> ⚠️ **Protokol notu:** Yeni Claude modellerinde (Opus 5.5, Sonnet 5.5) **sıcaklık ayarı yok**, gönderilirse istek hata verir. Opus 5.5'te **düşünme kapatılamaz**, yalnızca `effort` ile azaltılır. Bu yüzden "sıcaklık 0" kuralı yalnızca destekleyen modellere uygulanır. İçerikte tek cümleyle söyle: *"Her modeli sağlayıcının izin verdiği en tutarlı ayarla çalıştırdım."* Bu fark, videoda ilginç bir detay da olabilir.
+
+### 3. Önce deneme, sonra gerçek çalıştırma
+```bash
+python deneyler/calistir.py deneyler/olctum-01 --deneme   # API çağırmaz, sahte cevaplarla boru hattını test eder
+python deneyler/calistir.py deneyler/olctum-01            # gerçek deney: 3 × 100 istek
+```
+- **Yarıda kalırsa** aynı komutu tekrar çalıştır. Biten istekleri atlar, kaldığı yerden devam eder.
+- **Ekran kaydı** için gerçek çalıştırmayı terminalde canlı göster. İlerleme satırları videoda sayaç görevi görür.
+
+### 4. Çıktılar
+| Dosya | İçerik |
+|---|---|
+| `rapor.md` | Doğruluk · zor örneklerde doğruluk · format hatası · reddetme · 100 e-posta maliyeti (TL) · ortalama süre · kategori bazında tablo · en çok karıştırılan çiftler |
+| `sonuc-sablonu.csv` | Her e-posta için 3 modelin cevabı |
+| `ham-sonuclar.jsonl` | Ham kayıt: cevap, token, süre, durma nedeni |
+
+**Teslim:** `rapor.md` dosyasını bu sohbete gönder ya da depoya ekle. H1 paketindeki yer tutucuları ben doldururum.
+
+**Ölçüm kuralları:**
+- **Geçersiz cevap:** Etiket dışında bir şey döndüren cevap **yanlış** sayılır ve ayrıca "format hatası" olarak raporlanır.
+- **Reddetme:** Model bir e-postayı reddederse (refusal) bu da ayrı raporlanır. Reddedilen isteği otomatik olarak başka bir modele yönlendirme özelliği (fallback) **bilinçli olarak kapalı**; açık olsaydı ölçüm başka bir modelle karışırdı.
+- **Maliyet:** Düşünme token'ları çıktı token'ına dahil olduğu için Opus 5.5'in gerçek maliyeti ölçülür.
