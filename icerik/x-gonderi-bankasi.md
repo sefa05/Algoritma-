@@ -62,6 +62,22 @@ Ama "çoğu zaman" yetmez. Kendi işinden birkaç örnekle denemeden karar verme
 
 ---
 
+**K8**
+```
+Embedding modelini değiştirmek, kütüphanedeki kitapların dilini değiştirmek gibidir: eski vektörler yenisiyle karşılaştırılamaz.
+
+Model değişirse tüm indeksi yeniden üretmeniz gerekir. Bu maliyeti ve kesinti süresini en baştan planlayın.
+```
+
+**K9**
+```
+Ajan araçlarını idempotent tasarlayın.
+
+Ağ hatasında ajan aynı çağrıyı tekrarlayabilir. "Fatura kes" aracı iki kez çalışırsa iki fatura kesilir.
+
+Çözüm: her işleme bir işlem anahtarı (idempotency key) verin, aynı anahtarla gelen ikinci çağrıyı yok sayın.
+```
+
 ## 2. Görüş ✏️
 Konumlanmanı netleştirir. Karşı görüş gelirse sohbet açılır.
 
@@ -88,7 +104,14 @@ Asıl test bunlarla başlar.
 ## 3. Perde arkası
 Güveni en çok bunlar kurar, çünkü süreci ve hataları gösterir.
 
-**P1**: H1 Perşembe'de kullanıldı (`icerik/2026-h01.md`) ✅
+**P1**: Doğrulanmış: Anthropic dokümantasyonu, Eylül 2026. Kaynak ilk yanıtta.
+```
+Claude Opus 5.5 ve Sonnet 5.5'te temperature gibi örnekleme parametreleri kabul edilmiyor. Gönderilirse istek 400 hatası döner.
+
+Opus 5.5'te düşünme modu da kapatılamıyor. Kontrol "effort" parametresinde, varsayılan değeri "medium".
+
+Eski entegrasyonları taşımadan önce bakın.
+```
 
 **P2**
 ```
