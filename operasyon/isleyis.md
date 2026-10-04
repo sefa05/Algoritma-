@@ -90,6 +90,12 @@ HASHTAG (en fazla 5):
 X METNİ:
 ```
 
+### 5.1b X gönderisi
+```
+Her gönderi ≤ 280 karakter (emoji 2 sayılır). Link ilk yanıtta.
+Boş gün veya ek gönderi için: icerik/x-gonderi-bankasi.md
+```
+
 ### 5.2 Carousel (8–12 slayt)
 ```
 1 Kapak: sonuç vaat eden başlık (en fazla 8 kelime)

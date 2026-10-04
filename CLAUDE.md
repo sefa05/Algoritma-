@@ -16,6 +16,7 @@ Bu depo, Sefa Balaban'ın (KorgaAI) X, Instagram ve YouTube içerik operasyonudu
 - `operasyon/isleyis.md`: roller, haftalık döngü, yayın matrisi, şablonlar, kalite kontrol. **Her paketten önce oku.**
 - `takvim/ana-takvim.md`: 8 haftalık konu planı.
 - `icerik/2026-hNN.md`: haftalık içerik paketleri.
+- `icerik/x-gonderi-bankasi.md`: X için hazır gönderiler ve yanıt kalıpları. Rutin her Pazar kullanılanları (`✅`) çıkarır, yenilerini ekler. Her X gönderisi ≤ 280 karakter.
 - `icerik/uzun-video/UN.md`: uzun video senaryoları (kayıttan bir hafta önce hazır).
 - `deneyler/olctum-NN/`: Ölçtüm deney dosyaları (veri seti, sistem istemi, sonuçlar).
 - `olcum/metrik-kaydi.md`: haftalık metrikler, hipotezler, iş hunisi.
