@@ -8,31 +8,31 @@
 - **Instagram:** İsteğe bağlı, haftalık metin görseli.
 - **YouTube:** Beklemede.
 
-## Haftalık kalıp
+## Haftalık kalıp (uzman tonu, `CLAUDE.md` → Uzman tonu standardı)
 | Gün | Saat | Tür |
 |---|---|---|
-| **Pzt** | 09:00 | **Tek gönderide kavram** |
-| **Sal** | 21:00 | Pratik ipucu / kontrol listesi |
-| **Çar** | 21:00 | **Dizi** (5–7 gönderilik rehber) |
-| **Per** | 09:00 | **Haftanın yapay zekâ gelişmesi**, jargonsuz ve kaynaklı |
-| **Cum** | 21:00 | **Mit mi gerçek mi**, kaynaklı |
-| **Cmt** | 12:00 | Görüş ✏️ ya da hafif gönderi |
-| **Paz** | 12:00 | Soru ya da haftanın özeti (isteğe bağlı) |
+| **Pzt** | 09:00 | **Ana dizi** ya da **teknik not**. Haftanın en güçlü içeriği. |
+| **Sal** | 21:00 | Teknik not: tek bir mekanizma ya da hata |
+| **Çar** | 21:00 | **Dizi:** teşhis sırası, karar çerçevesi ya da kontrol listesi |
+| **Per** | 09:00 | **Gelişme:** son bir haftanın önemli değişikliği ve pratik etkisi, kaynaklı |
+| **Cum** | 21:00 | **Mit mi gerçek mi:** yaygın bir inanç, kaynaklı cevap |
+| **Cmt** | 12:00 | Görüş ✏️ |
+| **Paz** | 12:00 | Teknik not (kısa) |
 
 ## Konular
-| Hafta | Tarih | Pzt · Kavram | Çar · Dizi | Cum · Mit mi gerçek mi |
+| Hafta | Tarih | Ana dizi / teknik not | Çar · Dizi | Cum · Mit mi gerçek mi |
 |---|---|---|---|---|
-| **H1** | 5–11 Eki | (Tanıtım dizisi) · Sal: Halüsinasyon | Yapay zekâya başlamadan önce 5 soru | "İstem ne kadar uzunsa o kadar iyi" |
-| **H2** | 12–18 Eki | RAG | RAG ne zaman gerekir, ne zaman gerekmez? | "Yapay zekâ internete bakıp cevap veriyor" |
-| **H3** | 19–25 Eki | Token | Yapay zekânın maliyeti nasıl hesaplanır? (4 kalem) | "Büyük model her zaman daha iyidir" |
-| **H4** | 26 Eki–1 Kas | Yapay zekâ ajanı | Ajan ne zaman gereksiz? (bankadaki T1) | "Yapay zekâ konuştuklarımızdan öğreniyor" |
-| **H5** | 2–8 Kas | Bağlam penceresi | Canlıya almadan önce test (bankadaki T2) | "Yapay zekâ dedektörleri güvenilirdir" |
-| **H6** | 9–15 Kas | Embedding | Yapay zekâ çıktısını kontrol etmenin 5 yolu | "'Adım adım düşün' demek her zaman işe yarar" |
-| **H7** | 16–22 Kas | Fine-tuning mi RAG mı? | İnsan onayı nereye konmalı? | "Açık kaynak model her zaman daha ucuzdur" |
-| **H8** | 23–29 Kas | İstem enjeksiyonu (prompt injection) | 8 haftada 8 kavram: tek dizide özet | "Daha çok veri her zaman daha iyi sonuç verir" |
+| **H1** | 5–11 Eki | LLM sistemleri üretimde neden bozulur: 6 kırılma noktası · Prompt caching | RAG teşhis sırası | "LLM hakem objektiftir" |
+| **H2** | 12–18 Eki | Hibrit arama ve reranker: anlamsal arama neden tek başına yetmez? | Değerlendirme seti nasıl kurulur: 6 adım | "Bağlam penceresi 1M oldu, RAG'e gerek kalmadı" (kaynak: Liu vd., *Lost in the Middle*, 2023 + maliyet/gecikme) |
+| **H3** | 19–25 Eki | Yapılandırılmış çıktı: JSON'u istemle değil şemayla garantilemek | Tamamlanan iş başına maliyet: hesap şablonu (gerçek fiyatlarla) | "Fine-tuning modele yeni bilgi öğretmenin en iyi yolu" |
+| **H4** | 26 Eki–1 Kas | Ajan araç tasarımı: iyi bir aracın 4 özelliği | Ajan ne zaman gereksiz? Otomasyon, tek çağrı, ajan | "Daha büyük model her zaman daha iyi sonuç verir" |
+| **H5** | 2–8 Kas | Dolaylı istem enjeksiyonu: saldırı yüzeyi ve önlemler | Üretimde LLM gözlemlenebilirliği: neyi kaydetmeli? | "Yapay zekâ metin dedektörleri güvenilirdir" (kaynak: OpenAI 2023'te kendi sınıflandırıcısını düşük doğruluk nedeniyle kaldırdı) |
+| **H6** | 9–15 Kas | Türkçe için embedding seçimi: neye bakılmalı? | Parçalama stratejileri: sabit, yapısal, anlamsal | "Modele 'adım adım düşün' demek her zaman işe yarar" (düşünme modlu modellerde durum) |
+| **H7** | 16–22 Kas | Batch API: acil olmayan işlerde maliyeti yarıya indirmek | İnsan onayı nereye konmalı: risk matrisi | "Açık kaynak model her zaman daha ucuzdur" (barındırma maliyeti) |
+| **H8** | 23–29 Kas | Model geçişi: yeni sürüme geçerken neler bozulur? | LLM sistemini üretime almadan önce 12 maddelik kontrol listesi | "Temperature 0 deterministik çıktı demektir" |
 
-- **Perşembe "gelişme" konuları** her hafta gündeme göre seçilir. Pazar rutini web'de araştırır, kaynağı ilk yanıta koyar.
-- **Pazar sorularına gelen cevaplar** konu listesini değiştirebilir. Takipçinin sorduğu kavram önceliklidir.
+- **Perşembe gelişme gönderisi** her hafta gündeme göre seçilir. Pazar rutini web'de araştırır, kaynağı ilk yanıta koyar.
+- **Konu önceliği:** Takipçilerden gelen teknik sorular listeyi değiştirebilir.
 
 ## Doğruluk kuralları
 - **Mit mi gerçek mi** ve **gelişme** gönderilerindeki her iddia resmî bir kaynağa ya da güvenilir bir habere dayanır. Kaynak ilk yanıtta yer alır.

@@ -1,5 +1,7 @@
 # X Gönderi Bankası — @korgaAi
 
+> **Uzman tonu (4 Ekim):** Başlangıç seviyesindeki gönderiler çıkarıldı. Kalanlar `CLAUDE.md` → Uzman tonu standardına uyuyor. Pazar rutini bankayı bu standartla yeniden doldurur.
+
 **Ne için:** Haftalık paketteki X gönderileri ana plandır. Bu banka şu boşlukları doldurur:
 - paketin boş bıraktığı günler
 - ani bir fikir gerektiğinde ya da bir gündem anında
@@ -20,36 +22,6 @@
 
 ## 1. Mini ders / kontrol listesi
 Bu gönderiler en çok kaydedilir ve paylaşılır. X kodunda en yüksek ağırlık "linki kopyala"da (20). Ağırlığın neye uygulandığı araştırma raporu 2.2'de.
-
-**K1** ✏️
-```
-Bir işletmeye yapay zekâ asistanı kurarken ilk hafta modele değil şunlara bakıyorum:
-
-1) En sık gelen 20 soru ne?
-2) Cevapları şu an kim, nereden veriyor?
-3) Yanlış cevabın bedeli ne?
-
-Bu üçü netleşmeden model seçmek erken.
-```
-
-**K2**
-```
-RAG'i tek cümleyle anlatayım: modele, sorudan önce ilgili belgeleri bulup okutmak.
-
-İşe yaradığı yer: cevabı belgelerinizde olan sorular.
-Yaramadığı yer: belgede olmayan, yorum isteyen sorular.
-
-İkincisinde model yine uydurabilir. Test etmeden canlıya almayın.
-```
-
-**K3**
-```
-"Yapay zekâ ajanı" çoğu zaman şu demek: bir model + birkaç araç (e-posta okumak, tabloya yazmak, API çağırmak) + bir döngü.
-
-Model hangi aracı ne zaman kullanacağına kendisi karar veriyor.
-
-Gücü de riski de burada.
-```
 
 **K4**
 ```
@@ -93,15 +65,6 @@ Ama "çoğu zaman" yetmez. Kendi işinden birkaç örnekle denemeden karar verme
 ## 2. Görüş ✏️
 Konumlanmanı netleştirir. Karşı görüş gelirse sohbet açılır.
 
-**G1** ✏️
-```
-Popüler görüş: "Yapay zekâ müşteri hizmetlerini tamamen devralacak."
-
-Benim gördüğüm: en iyi sonucu, basit soruları otomatiğe alıp zor olanları insana daha hızlı ulaştıran sistemler veriyor.
-
-Hedef insansız destek değil, beklemesiz destek.
-```
-
 **G2**
 ```
 "Hangi model en iyisi?" sorusunun tek dürüst cevabı: hangi iş için?
@@ -118,11 +81,6 @@ Demoda çalışan yapay zekâ ile işletmede çalışan yapay zekâ arasındaki 
 Yazım hatalı e-posta, eğri taranmış PDF, yarım doldurulmuş form.
 
 Asıl test bunlarla başlar.
-```
-
-**G4** ✏️
-```
-Bir yapay zekâ projesinin başarısını "ne kadar akıllı" sorusuyla değil, "ayda kaç saat geri kazandırdı" sorusuyla ölçüyorum.
 ```
 
 ---
@@ -171,25 +129,6 @@ Sebebi: [NEDEN].
 Toplam: ayda ~[TL] TL.
 
 Aynı işe bir çalışanın ayırdığı süre: ayda [SAAT] saat.
-```
-
----
-
-## 4. Sohbet başlatan
-Gerçek sorulardır, etkileşim dilenme değildir. Gelen cevaplar sonraki "tek gönderide kavram" ve "Mit mi gerçek mi" konularına kaynak olur.
-
-**S1**
-```
-Soru: işinde en çok vaktini alan, tekrar eden iş hangisi?
-
-Sonraki gönderilerimin konularını bu cevaplardan seçeceğim.
-```
-
-**S2**
-```
-Yapay zekâyı işinde deneyip vazgeçen oldu mu? Neden vazgeçtiğini merak ediyorum.
-
-Başarısız denemeler bana başarılılardan daha çok şey öğretiyor.
 ```
 
 ---

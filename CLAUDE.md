@@ -7,6 +7,8 @@ Bu depo, Sefa Balaban'ın (KorgaAI) X, Instagram ve YouTube içerik operasyonudu
 - **Konumlanma cümlesi:** "Neyin çalışıp neyin çalışmadığını ölçüp yayınlıyorum."
 - **Hedef kitle:** Türk KOBİ ve girişim sahipleri. İkincil kitle: Türk yapay zekâ ve yazılım topluluğu.
 - **Uzun vadeli amaç:** Güven ve referans.
+- **Ses: alanında iyi bir uzman.** Türkçe, profesyonel, net, kaynaklı. Abartı, hype, emoji yağmuru ve tık tuzağı yok.
+- **Kullanıcı adları:** IG `@korgaai` · YT `@korgaAi` · X `@korgaAi` · Threads `@korgaai`
 
 ## ✍️ Mevcut mod: SADECE METİN (4 Ekim 2026'dan, Sefa değiştirene kadar)
 - **Amaç:** İlgi çekici ve bilgilendirici **yazılı** içerik. **Video yok, deney yok, satış çağrısı yok.**
@@ -25,10 +27,20 @@ Bu depo, Sefa Balaban'ın (KorgaAI) X, Instagram ve YouTube içerik operasyonudu
   - Paz: soru (isteğe bağlı)
   - Ayrıntı `takvim/ana-takvim.md` dosyasında.
 - **Doğruluk:** "Gelişme" ve "Mit mi gerçek mi" gönderilerindeki her iddia resmî kaynağa ya da güvenilir habere dayanır. Kaynak ilk yanıtta. Pazar rutini gelişmeleri web'de araştırır. Kaynağı olmayan rakam kullanılmaz.
-- **Kapanışlar:** Bilgi veya merak odaklı. Örnek: "Kaydet, lazım olacak." · "Sen hangisini merak ediyorsun?"
+- **Kapanışlar:** Net bir çıkarım cümlesiyle bitir. Çağrı ve slogan yok.
 - **Başarı ölçüsü:** Yer imi, paylaşım, yanıt, takip. DM ve iş talebi ölçülmez.
 - **Beklemede olanlar:** Uzun video senaryoları, Ölçtüm deneyleri (`deneyler/`), Reels ve carousel üretimi. Dosyalar korunuyor, üretilmiyor.
 - **Strateji dosyaları:** Uzun vadeli plan olarak geçerli. Video, deney ve satış kısımlarında bu mod önceliklidir.
+
+## ✅ Uzman tonu standardı (her gönderi için)
+1. **Tanımla değil, içgörüyle başla.** "X nedir?" değil; "X'te en sık yapılan hata", "X'i teşhis sırası", "X'in gizli maliyeti".
+2. **Mekanizma göster.** Neden olduğunu açıkla: önek eşleşmesi, retrieval recall, bileşik hata gibi.
+3. **Somut ol.** Gerçek fiyat, gerçek parametre adı, gerçek teknik (BM25, reranker, confusion matrix). Rakamlar kaynaklı olur ya da açık bir hesaba dayanır.
+4. **Ödünleşimi söyle.** "Kullanılabilir, ama…", "Şu koşulda doğru". Mutlak iddia yok.
+5. **Kaynak göster.** Resmî dokümantasyon, hakemli makale ya da güvenilir haber. Kaynak ilk yanıtta.
+6. **Yasak kalıplar:** "Kaydet, lazım olacak", "🧵" dışında emoji, "Bu hesapta şunu yapacağım" türü öz tanıtım, boş sorular, "harika", "inanılmaz", "devrim".
+7. **Hedef okur:** Mühendis okuyunca "doğru ve derin", işletme sahibi okuyunca "anlaşılır ve güvenilir" demeli.
+8. **Deneyim iddiası:** "Kurduğum sistemlerde" gibi deneyim cümleleri ✏️ ile işaretlenir. Sefa onaylamadan yayınlanmaz.
 
 ## Dosya haritası
 - `arastirma/`: algoritma araştırması. Stratejinin dayanağı.
