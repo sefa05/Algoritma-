@@ -6,7 +6,21 @@ Bu depo, Sefa Balaban'ın (KorgaAI) X, Instagram ve YouTube içerik operasyonudu
 - **Kim:** Sefa Balaban. İşletmeler için LLM sistemleri kuruyor: RAG, yapay zekâ ajanları, süreç otomasyonu.
 - **Konumlanma cümlesi:** "Neyin çalışıp neyin çalışmadığını ölçüp yayınlıyorum."
 - **Hedef kitle:** Türk KOBİ ve girişim sahipleri. İkincil kitle: Türk yapay zekâ ve yazılım topluluğu.
-- **Asıl amaç:** Takipçi değil, **güven, referans ve iş talebi.**
+- **Uzun vadeli amaç:** Güven ve referans.
+
+## 🟢 Mevcut mod: SADECE İÇERİK (Ekim 2026'dan, Sefa değiştirene kadar)
+- **Amaç:** İlgi çekici ve bilgilendirici içerik paylaşmak. Satış yok.
+- **Çıkanlar:** "DM'den yaz", "işletmen için kuralım" gibi satış çağrıları, pilot programı, iş talebi hedefleri.
+- **Kapanış cümleleri:** Bilgi veya merak odaklı. Örnek: "Kaydet, lazım olacak." · "Her cuma yeni bir ölçüm." · "Sen neyi test etmemi istersin?"
+- **Başarı ölçüsü:** Kaydetme, paylaşım/gönderim, izlenme süresi, takip. DM ve iş talebi ölçülmez.
+- **Strateji dosyaları:** Uzun vadeli plan olarak geçerli. Satışla ilgili kısımlarında bu mod önceliklidir.
+- **İçerik formatları:**
+  - **Ölçtüm:** Deneyler. Mümkünse uzun videodan türetilir, iş yükü az olur.
+  - **30 saniyede:** Bir kavramın kısa anlatımı.
+  - **Mit mi gerçek mi:** Yaygın bir inancın doğrulanması ya da çürütülmesi.
+  - **Görsel demo + nasıl yaptım:** Örneğin 3D ya da oyun demosu.
+  - **Carousel rehber**
+  - **Uzun video**
 - **Ses:** Türkçe, sade, rakamlı, dürüst. "Ben kurdum, ölçtüm, burada hata yaptı, şöyle düzelttim." Abartı, emoji yağmuru ve tık tuzağı yok.
 - **Kullanıcı adları:** IG `@korgaai` · YT `@korgaAi` · X `@korgaAi`
 
@@ -46,5 +60,9 @@ Otomatik rutin: "KorgaAI haftalık içerik paketi" (`trig_01AVGWAF4zmLckDEVU158H
   - Etkileşim dilenme yok.
   - Filigransız, doğrudan yükleme.
   - Anlatımda Sefa'nın sesi ve yorumu var, şablon tekrar yok.
-- **İçerik dengesi:** Sütun A (Ölçtüm) haftada 1, B/D haftada en fazla 1, C haftada 1, uzun video iki haftada bir.
+- **İçerik dengesi (sadece içerik modu):**
+  - **Pazartesi Reels:** "30 saniyede" ve görsel demo dönüşümlü.
+  - **Çarşamba:** Carousel rehber.
+  - **Cuma:** Ölçtüm ve "Mit mi gerçek mi" dönüşümlü.
+  - **Uzun video:** İki haftada bir.
 - Algoritma iddialarında kaynak göster. Doğrulanmamış blog rakamlarını kullanma.

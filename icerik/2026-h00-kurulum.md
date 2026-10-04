@@ -35,7 +35,7 @@ Bu hafta paylaşım yok. Bu hafta vitrin hazırlanıyor. Toplam süre yaklaşık
   ```
   LLM sistemleri kuruyorum: RAG, ajanlar, süreç otomasyonu.
   Neyin çalışıp neyin çalışmadığını ölçüp burada yayınlıyorum.
-  İşletmen için otomasyon mu düşünüyorsun? DM'den yaz 👇
+  Her cuma yeni bir ölçüm 👇
   ```
 - [ ] **Link:** E-posta ya da takvim linki
 - [ ] **Siyah kapaklı Reels:** Kapak değiştir ya da arşivle
@@ -56,7 +56,7 @@ Bu hafta paylaşım yok. Bu hafta vitrin hazırlanıyor. Toplam süre yaklaşık
   • Kurulumlar: bir işletme problemini sıfırdan çözüp maliyetini ve doğruluğunu ölçüyorum
   • Rehberler: işletmen için yapay zekâ ne zaman değer, ne zaman para kaybı
 
-  İş birliği ve pilot projeler için: [E-POSTA]
+  İletişim: [E-POSTA]
   ```
 - [ ] **Kanal linkleri:** Instagram, X, e-posta
 - [ ] **Oynatma listeleri:** `Ölçtüm` · `İşletmede Yapay Zekâ Kurulumları` · `Temeller: RAG, Ajan, Otomasyon`
@@ -64,7 +64,7 @@ Bu hafta paylaşım yok. Bu hafta vitrin hazırlanıyor. Toplam süre yaklaşık
 
 ### X (@korgaAi), 30 dk
 - [ ] **İsim:** `Sefa Balaban | LLM & Otomasyon`
-- [ ] **Açıklama:** Instagram ile aynı metin, son satır `DM açık.`
+- [ ] **Açıklama:** Instagram ile aynı metin, son satır `Her cuma yeni bir ölçüm.`
 - [ ] **Profil fotoğrafı:** Yüz fotoğrafı. **Kapak görseli:** YouTube afişi.
 - [ ] **Doğum tarihi:** Gizle
 - [ ] **Hedef listesi:** Gizli bir liste aç, adı `Hedef` olsun. İlk 30 hesabı ekle (dağılım `strateji/x-stratejisi.md` bölüm 5'te).

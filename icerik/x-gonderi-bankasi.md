@@ -181,11 +181,11 @@ Aynı işe bir çalışanın ayırdığı süre: ayda [SAAT] saat.
 ---
 
 ## 4. Sohbet başlatan
-Gerçek sorulardır, etkileşim dilenme değildir. Gelen cevaplar sonraki Ölçtüm konularına kaynak olur.
+Gerçek sorulardır, etkileşim dilenme değildir. Gelen cevaplar sonraki Ölçtüm ve "Mit mi gerçek mi" konularına kaynak olur.
 
 **S1**
 ```
-İşletme sahiplerine soru: haftada en çok vaktinizi alan, tekrar eden iş hangisi?
+Soru: işinde en çok vaktini alan, tekrar eden iş hangisi?
 
 Sonraki ölçümlerimi bu cevaplardan seçeceğim.
 ```
@@ -269,9 +269,9 @@ X'te ağ burada kurulur. Karşılıklı takipleştiğin birinden gelen yanıtın
 | İşletme sahibi bir sorun anlatıyor | "Burada önce şuna bakardım: [SORU]. Cevap [A] ise [ÖNERİ 1], [B] ise [ÖNERİ 2]." |
 | Geliştirici teknik bir şey paylaşıyor | "Benzerini [YÖNTEM] ile çözdüm, [SONUÇ]. Sizde darboğaz [TAHMİN] mi?" |
 | Biri yeni bir model veya araç duyuruyor | "Bunu [İŞ GÖREVİ] üzerinde denemek istiyorum. Türkçe performansına dair bir gözlemin var mı?" |
-| Kendi gönderine soru geldi | Soruyu doğrudan cevapla. Konu işine benziyorsa bir cümle ekle: "Sizdeki duruma özel bakmamı istersen DM açık." |
+| Kendi gönderine soru geldi | Soruyu doğrudan ve tam cevapla. Cevap uzunsa "Bunu ayrı bir gönderide anlatayım" de ve bankaya not düş. |
 | Eleştiri geldi | "Haklı bir nokta. Bu testin sınırı: [SINIR]. Bir sonraki ölçümde [DEĞİŞİKLİK] ile tekrar deneyeceğim." |
-| Veri seti istendi | "Veri setini şimdilik paylaşmıyorum ama yöntemi yazdım. Kendi verinle aynısını kurmak istersen DM'den yaz." |
+| Veri seti istendi | "Veri setini şimdilik paylaşmıyorum ama yöntemi yazdım. Aynısını kendi verinle kolayca kurabilirsin." |
 
 ---
 
