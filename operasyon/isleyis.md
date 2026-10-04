@@ -1,5 +1,12 @@
 # İşleyiş — KorgaAI İçerik Operasyonu
 
+> ✍️ **Şu an sadece metin modu (4 Ekim 2026'dan).** Aşağıdaki çekim, montaj, Reels ve deney adımları beklemede. Geçerli döngü:
+> - **Pazar:** Ajan paketi üretir.
+> - **Pazartesi:** Sefa onaylar (15 dk).
+> - **Her gün:** Paylaşım (5 dk) + yanıtlar (15 dk).
+>
+> Yayın günleri ve saatleri için `takvim/ana-takvim.md`. X kuralları için bölüm 5.1b.
+
 Bu dosya sistemin nasıl döndüğünü anlatır: kim ne yapar, ne zaman yapar, içerik nereden nereye gider.
 
 ---

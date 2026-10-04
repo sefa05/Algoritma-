@@ -1,5 +1,10 @@
 # H0 · Kurulum Haftası — 1–4 Ekim 2026
 
+> ✍️ **4 Ekim güncellemesi, sadece metin moduna geçildi:**
+> - **Hâlâ geçerli:** Profil görevleri (X öncelikli).
+> - **İptal:** "Ben kimim" çekimi, kapak şablonu ve Ölçtüm #1 görevleri.
+> - **Yeni:** Instagram profilinden **Threads** hesabını aç. Açıklama X ile aynı olsun.
+
 Bu hafta paylaşım yok. Bu hafta vitrin hazırlanıyor. Toplam süre yaklaşık 5–6 saat, günde yaklaşık 1 saat.
 
 ---

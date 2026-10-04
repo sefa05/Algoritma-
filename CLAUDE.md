@@ -8,21 +8,27 @@ Bu depo, Sefa Balaban'ın (KorgaAI) X, Instagram ve YouTube içerik operasyonudu
 - **Hedef kitle:** Türk KOBİ ve girişim sahipleri. İkincil kitle: Türk yapay zekâ ve yazılım topluluğu.
 - **Uzun vadeli amaç:** Güven ve referans.
 
-## 🟢 Mevcut mod: SADECE İÇERİK (Ekim 2026'dan, Sefa değiştirene kadar)
-- **Amaç:** İlgi çekici ve bilgilendirici içerik paylaşmak. Satış yok.
-- **Çıkanlar:** "DM'den yaz", "işletmen için kuralım" gibi satış çağrıları, pilot programı, iş talebi hedefleri.
-- **Kapanış cümleleri:** Bilgi veya merak odaklı. Örnek: "Kaydet, lazım olacak." · "Her cuma yeni bir ölçüm." · "Sen neyi test etmemi istersin?"
-- **Başarı ölçüsü:** Kaydetme, paylaşım/gönderim, izlenme süresi, takip. DM ve iş talebi ölçülmez.
-- **Strateji dosyaları:** Uzun vadeli plan olarak geçerli. Satışla ilgili kısımlarında bu mod önceliklidir.
-- **İçerik formatları:**
-  - **Ölçtüm:** Deneyler. Mümkünse uzun videodan türetilir, iş yükü az olur.
-  - **30 saniyede:** Bir kavramın kısa anlatımı.
-  - **Mit mi gerçek mi:** Yaygın bir inancın doğrulanması ya da çürütülmesi.
-  - **Görsel demo + nasıl yaptım:** Örneğin 3D ya da oyun demosu.
-  - **Carousel rehber**
-  - **Uzun video**
-- **Ses:** Türkçe, sade, rakamlı, dürüst. "Ben kurdum, ölçtüm, burada hata yaptı, şöyle düzelttim." Abartı, emoji yağmuru ve tık tuzağı yok.
-- **Kullanıcı adları:** IG `@korgaai` · YT `@korgaAi` · X `@korgaAi`
+## ✍️ Mevcut mod: SADECE METİN (4 Ekim 2026'dan, Sefa değiştirene kadar)
+- **Amaç:** İlgi çekici ve bilgilendirici **yazılı** içerik. **Video yok, deney yok, satış çağrısı yok.**
+- **Platformlar:**
+  - **X:** Ana platform. Her gönderi ≤ 280 karakter.
+  - **Threads:** X metninin aynısı (sınır 500 karakter).
+  - **Instagram:** İsteğe bağlı, haftada 1 metin görseli.
+  - **YouTube:** Beklemede.
+- **Haftalık kalıp:**
+  - Pzt: tek gönderide kavram
+  - Sal: pratik ipucu
+  - Çar: dizi
+  - Per: haftanın yapay zekâ gelişmesi
+  - Cum: mit mi gerçek mi
+  - Cmt: görüş ✏️
+  - Paz: soru (isteğe bağlı)
+  - Ayrıntı `takvim/ana-takvim.md` dosyasında.
+- **Doğruluk:** "Gelişme" ve "Mit mi gerçek mi" gönderilerindeki her iddia resmî kaynağa ya da güvenilir habere dayanır. Kaynak ilk yanıtta. Pazar rutini gelişmeleri web'de araştırır. Kaynağı olmayan rakam kullanılmaz.
+- **Kapanışlar:** Bilgi veya merak odaklı. Örnek: "Kaydet, lazım olacak." · "Sen hangisini merak ediyorsun?"
+- **Başarı ölçüsü:** Yer imi, paylaşım, yanıt, takip. DM ve iş talebi ölçülmez.
+- **Beklemede olanlar:** Uzun video senaryoları, Ölçtüm deneyleri (`deneyler/`), Reels ve carousel üretimi. Dosyalar korunuyor, üretilmiyor.
+- **Strateji dosyaları:** Uzun vadeli plan olarak geçerli. Video, deney ve satış kısımlarında bu mod önceliklidir.
 
 ## Dosya haritası
 - `arastirma/`: algoritma araştırması. Stratejinin dayanağı.
@@ -45,8 +51,8 @@ Otomatik rutin: "KorgaAI haftalık içerik paketi" (`trig_01AVGWAF4zmLckDEVU158H
 3. `icerik/2026-h01.md` formatında `icerik/2026-hNN.md` dosyasını üret:
    - haftanın akış tablosu
    - her içerik için tam metin, senaryo, açıklama ve X metni
-   - deney protokolü
-   - uzun video haftasıysa senaryo ve kesit planı
+   - (sadece metin modunda deney protokolü ve video senaryosu üretilmez)
+   - Perşembe "gelişme" gönderisi için web araştırması yap, kaynağı ilk yanıta koy
 4. Paketin başına "Geçen haftadan 3 bulgu ve bu haftaki değişiklik" bölümünü ekle.
 5. Commit at ve Sefa'nın çalışma dalına gönder.
 
@@ -60,9 +66,5 @@ Otomatik rutin: "KorgaAI haftalık içerik paketi" (`trig_01AVGWAF4zmLckDEVU158H
   - Etkileşim dilenme yok.
   - Filigransız, doğrudan yükleme.
   - Anlatımda Sefa'nın sesi ve yorumu var, şablon tekrar yok.
-- **İçerik dengesi (sadece içerik modu):**
-  - **Pazartesi Reels:** "30 saniyede" ve görsel demo dönüşümlü.
-  - **Çarşamba:** Carousel rehber.
-  - **Cuma:** Ölçtüm ve "Mit mi gerçek mi" dönüşümlü.
-  - **Uzun video:** İki haftada bir.
+- **İçerik dengesi (sadece metin modu):** Günde 1 özgün gönderi, en fazla 2. Haftada 1–2 dizi. Kalıp için `takvim/ana-takvim.md`.
 - Algoritma iddialarında kaynak göster. Doğrulanmamış blog rakamlarını kullanma.

@@ -79,15 +79,13 @@ Her yapay zekâ akışında sorduğum soru: hangi adımda bir insan onay vermeli
 Benim kuralım: geri alınamayan bir işlem varsa (ödeme, müşteriye giden mesaj, silme) önce insan onayı. Gerisi otomatiğe kalabilir.
 ```
 
-**K7**: Ölçtüm #1'den önceki gün (Perşembe) için uygun
+**K7**
 ```
 Her iş için en büyük modele gerek yok.
 
 Sınıflandırma, etiketleme, kısa özet gibi işlerde küçük modeller çoğu zaman yeterli ve çok daha ucuz.
 
-Ama "çoğu zaman" yetmez. Kendi verinle ölçmeden karar verme.
-
-Yarın bunu ölçüyorum.
+Ama "çoğu zaman" yetmez. Kendi işinden birkaç örnekle denemeden karar verme.
 ```
 
 ---
@@ -132,27 +130,24 @@ Bir yapay zekâ projesinin başarısını "ne kadar akıllı" sorusuyla değil, 
 ## 3. Perde arkası
 Güveni en çok bunlar kurar, çünkü süreci ve hataları gösterir.
 
-**P1**: Doğrulanmış bilgi (Anthropic dokümantasyonu, Eylül 2026)
-```
-Ölçtüm #1'i hazırlarken öğrendiğim şey: yeni Claude modellerinde (Opus 5.5, Sonnet 5.5) temperature ayarı yok, gönderince istek hata veriyor. Opus 5.5'te düşünme modu da kapatılamıyor.
-
-"Hepsini sıcaklık 0'da test ettim" artık her model için mümkün değil.
-```
+**P1**: H1 Perşembe'de kullanıldı (`icerik/2026-h01.md`) ✅
 
 **P2**
 ```
-Veri setine bilerek zor örnekler koydum: ironi ("Harika ürün, 2 günde bozuldu 👏"), tek kelimelik mesajlar, Türkçe karaktersiz yazılar.
+Bir yapay zekâyı test ederken kolay örnekler yanıltır. Hepsini her model bilir.
 
-Kolay örnekte modellerin hepsi iyi. Fark zor örnekte çıkıyor.
+Asıl farkı zor örnekler gösterir: ironi ("Harika ürün, 2 günde bozuldu 👏"), tek kelimelik mesajlar, Türkçe karaktersiz yazılar.
+
+Test setine bunları bilerek koy.
 ```
 
-**P3**: U1 kaydından önce (Cmt 10 Ekim)
+**P3**
 ```
-Bu hafta sonu kaydedeceğim video: bir şirketin dokümanlarına RAG kurup 50 soruyla test edeceğim.
+RAG kurulumlarında en önemli test: cevabı belgelerde OLMAYAN sorular.
 
-10 sorunun cevabı dokümanda yok. Model "bilmiyorum" mu diyecek, yoksa uyduracak mı?
+İyi bir sistem "bu bilgi elimdeki belgelerde yok" der. Kötü bir sistem akıcı bir cevap uydurur.
 
-Sence kaçında uydurur?
+Test setinin en az beşte biri bu tür sorular olsun.
 ```
 
 **P4**: Şablon `[YER TUTUCU]`
@@ -181,13 +176,13 @@ Aynı işe bir çalışanın ayırdığı süre: ayda [SAAT] saat.
 ---
 
 ## 4. Sohbet başlatan
-Gerçek sorulardır, etkileşim dilenme değildir. Gelen cevaplar sonraki Ölçtüm ve "Mit mi gerçek mi" konularına kaynak olur.
+Gerçek sorulardır, etkileşim dilenme değildir. Gelen cevaplar sonraki "tek gönderide kavram" ve "Mit mi gerçek mi" konularına kaynak olur.
 
 **S1**
 ```
 Soru: işinde en çok vaktini alan, tekrar eden iş hangisi?
 
-Sonraki ölçümlerimi bu cevaplardan seçeceğim.
+Sonraki gönderilerimin konularını bu cevaplardan seçeceğim.
 ```
 
 **S2**
@@ -270,8 +265,7 @@ X'te ağ burada kurulur. Karşılıklı takipleştiğin birinden gelen yanıtın
 | Geliştirici teknik bir şey paylaşıyor | "Benzerini [YÖNTEM] ile çözdüm, [SONUÇ]. Sizde darboğaz [TAHMİN] mi?" |
 | Biri yeni bir model veya araç duyuruyor | "Bunu [İŞ GÖREVİ] üzerinde denemek istiyorum. Türkçe performansına dair bir gözlemin var mı?" |
 | Kendi gönderine soru geldi | Soruyu doğrudan ve tam cevapla. Cevap uzunsa "Bunu ayrı bir gönderide anlatayım" de ve bankaya not düş. |
-| Eleştiri geldi | "Haklı bir nokta. Bu testin sınırı: [SINIR]. Bir sonraki ölçümde [DEĞİŞİKLİK] ile tekrar deneyeceğim." |
-| Veri seti istendi | "Veri setini şimdilik paylaşmıyorum ama yöntemi yazdım. Aynısını kendi verinle kolayca kurabilirsin." |
+| Eleştiri geldi | "Haklı bir nokta, şunu eksik bırakmışım: [EKSİK]. Teşekkürler, ekliyorum." Kaynaklı bir düzeltme gelirse açıkça kabul et. |
 
 ---
 
