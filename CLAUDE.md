@@ -55,6 +55,8 @@ Bu depo, Sefa Balaban'ın (KorgaAI) X, Instagram ve YouTube içerik operasyonudu
 - `notlar/`: Sefa'nın Obsidian ikinci beyni (fikirler, deneyimler, müşteri gözlemleri, deney notları). Kurallar `notlar/README.md` dosyasında.
 
 ## Haftalık paket üretimi (Pazar)
+Günlük hatırlatma: "KorgaAI günlük gönderi hatırlatması" (`trig_01MqvmsoeGjtGdS7EtQYP6sr`), her gün 08:47 İstanbul. O günün gönderisini pakete dokunmadan, kopyala-yapıştır hazır olarak bu sohbete yazar.
+
 Otomatik rutin: "KorgaAI haftalık içerik paketi" (`trig_01AVGWAF4zmLckDEVU158Hvm`), her Pazar 19:50 İstanbul saatinde bu sohbette çalışır. Sefa istatistik ekran görüntülerini Pazar 19:50'den önce bu sohbete gönderir.
 
 1. `olcum/metrik-kaydi.md` dosyasını ve Sefa'nın gönderdiği istatistikleri oku. Tabloyu güncelle, 3 bulgu çıkar.
