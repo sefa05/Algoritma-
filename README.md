@@ -4,7 +4,7 @@ X, Instagram ve YouTube'da güven ve referans odaklı kitle oluşturma sistemi. 
 
 ## Başlangıç
 1. [Kurulum haftası (H0) görev listesi](icerik/2026-h00-kurulum.md)
-2. [Bu haftanın paketi (H1, 5–11 Ekim)](icerik/2026-h01.md)
+2. [Bu haftanın paketi (H2, 12–18 Ekim)](icerik/2026-h02.md) · [önceki: H1](icerik/2026-h01.md)
 
 ## Sistem
 - [İşleyiş: roller, haftalık döngü, yayın matrisi, şablonlar](operasyon/isleyis.md)
