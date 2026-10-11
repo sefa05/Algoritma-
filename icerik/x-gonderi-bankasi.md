@@ -62,11 +62,18 @@ Ama "çoğu zaman" yetmez. Kendi işinden birkaç örnekle denemeden karar verme
 
 ---
 
-**K8**
+**K10**
 ```
-Embedding modelini değiştirmek, kütüphanedeki kitapların dilini değiştirmek gibidir: eski vektörler yenisiyle karşılaştırılamaz.
+Üretimde 429 (rate limit) hatası kaçınılmaz.
 
-Model değişirse tüm indeksi yeniden üretmeniz gerekir. Bu maliyeti ve kesinti süresini en baştan planlayın.
+Yeniden denemelerde üstel bekleme kullanın ve araya rastgele bir gecikme (jitter) ekleyin. Aynı anda başarısız olan istekler aynı anda tekrar denenirse sunucuyu yeniden tıkar.
+```
+
+**K11**
+```
+Sistem istemi de kod gibi sürümlenmeli.
+
+Hangi cevabın hangi istem, hangi model ve hangi retrieval ayarıyla üretildiğini kaydetmezseniz, bir hatayı geriye dönük olarak izleyemezsiniz.
 ```
 
 **K9**
